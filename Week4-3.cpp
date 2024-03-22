@@ -44,7 +44,7 @@ int main(){
   for(i =0; i<3; i++) cout << "Pop s1: " << s1.pop() << "\n";
   for(i=0; i<3; i++) cout << "Pop s2: " << s2.pop() << "\n";
 
-return 0;
+  return 0;
 }
 
 
