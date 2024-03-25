@@ -28,9 +28,3 @@ int main(){
     ob3.print();
     return 0;
 }
-  
-
-
-
-
-
