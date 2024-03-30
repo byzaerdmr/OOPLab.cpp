@@ -26,6 +26,18 @@ int main() {
     cout<< "Even numbers: " << counterEven << endl;
     cout<< "Odd numbers: " << counterOdd << endl;
 
+     // Bubble sort
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 9 - i; j++) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap elements
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    } 
+
 
     cout <<"Sorted Array:";
     for (int i = 0; i < 10; i++) {
